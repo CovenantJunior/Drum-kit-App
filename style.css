@@ -1,3 +1,11 @@
+/*Contribution from Tea*/
+*:not(input):not(textarea){
+    /*Prevent text highlight when double-clicked or longpressed*/
+    user-select: none;
+    -webkit-user-select: none;
+}
+/*End of Contribution*/
+
 html {
     font-size: 10px;
     background: url('./background.jpg') bottom center;
